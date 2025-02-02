@@ -1,0 +1,13 @@
+.body{
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+}
+
+.main{
+    width: 100%;
+    height: calc(100vh - 24px);
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}

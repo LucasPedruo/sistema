@@ -1,0 +1,27 @@
+<section class="main">
+    <div class="logo">
+        <img src="logo.png"  alt="">
+    </div>
+
+    <div class="navegadores">
+        @for(link of links; track $index){
+            <div class="item">
+                    <img [src]="link.icon" alt="">
+                    <p>{{ link.label }}</p>
+            </div>
+        }
+    </div>
+
+    <div class="user">
+        <div class="info">
+            <div class="avatar">
+
+            </div>
+
+            <div class="text">
+                <p>nome</p>
+                <p class="email">email</p>
+            </div>
+        </div>
+    </div>
+</section>
